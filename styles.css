@@ -1,0 +1,47 @@
+body{
+  background-color:#a6e0f0;
+}
+
+hr{
+  border-style: none;
+  border-top: dotted;
+  border-color: red;
+  width: 100%;
+}
+
+h1{
+  color: #393b44;
+}
+
+h3{
+  color: #393b44;
+}
+
+/******Class selector****/
+
+.redh3{
+  color: red;
+}
+
+.greenh1{
+  color: green;
+  border-color: green;
+}
+.georgia{
+  font-family: Georgia, serif;
+}
+/******id selectors******/
+
+#dotted{
+  border-top-style: dotted;
+}
+
+#mainheading{
+  color: white;
+}
+
+/***pseudo-class***/
+
+a:hover{
+  color: orange;
+}
