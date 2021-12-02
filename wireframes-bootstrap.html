@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Підключаю Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- В блочний елемент <div> встановлюю класс .jumbotron який використовується для створення контенту або інформації який займає
+  всю ширину контейнера куди він поміщений. Він є дуже великим для того щоб на нього легко було звернути увагу. Також було встановлено
+  нижній відступ 0, та колір заднього фону-->
+  <div  class="jumbotron text-center" style="margin-bottom:0; background-color:teal">
+    <h1>My bootstrap website</h1>
+    <p>A website created by Kostiuk M.L.</p>
+  </div>
+
+  <!-- Встановлюю навігаційну панель для ноутбуку(позначка -lg), задній фон та колір. -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- .navbar-brand використовується для назви вашої компанії, продукту чи проекту.-->
+    <a class="navbar-brand" href="#">Navbar</a>
+    <!-- .navbar-toggler використовується для використання з плагіном згортання або іншими способами перемикання навігації . -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- .collapse.navbar-collapse використовується для групування та приховування вмісту навбару -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Місце народження</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Дитинство</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#">Справжній друг</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- .container є основним будівельним блоком Bootstrap, який містить, заповнює та вирівнює вміст у межах даного пристрою чи області перегляду. -->
+  <div class="container" style="margin-top:30px">
+    <div class="row" >
+      <!-- .col-sm-4 означає невеликий розмір >=576 пікселів-->
+      <div class="col-sm-4">
+        <h2>Про себе</h2>
+        <!-- .img-fluid використовується для адаптування зображення-->
+        <img src="image.jfif" class="img-fluid" alt="">
+        <p>Тут можна вказати текст який вас характеризує.</p>
+        <h3>Місце народження</h3>
+        <p>В цьому розділі можна розповісти про ваше місце народження. Та додати відповідне фото.</p>
+        <img src="image2.jfif" class="img-fluid" alt="">
+        <hr class="d-sm-none">
+      </div>
+      <div class="col-sm-8">
+        <h2>Дитинство</h2>
+        <h5>Цікаві спогади із дитинства</h5>
+        <img src="image3.jfif" class="img-fluid" alt="">
+        <p>Тут необхідно вказати найяскравіші моменти вашого дитинства.</p>
+        <br>
+        <h2>Справжній друг</h2>
+        <h5>А як опишете ви свого ідеального друга?</h5>
+        <img src="image4.jfif" class="img-fluid" alt="">
+        <p>Помістіть сюди розповідь про те яким повенен бути ваш справжній друг.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron text-center" style="margin-top:10px; margin-bottom:0px; background-color: orange">
+    <p>Виконав Костюк М.Л.</p>
+  </div>
+
+</body>
+</html>
